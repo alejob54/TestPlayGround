@@ -19,7 +19,7 @@
                 for (int i = 0; i < binary.Length; i++)
                 {
                     //Validate if the number is 1 or 0
-                    if (Convert.ToInt16(binary[i]).Equals(49))
+                    if (binary[i].ToString().Equals("1"))
                     {
                         //Sequence already started, so we need to end the gap count.
                         if (SequenceStarted)
