@@ -2,7 +2,7 @@
 {
     public class BinaryGap
     {
-        public int solution(int N)
+        public int Solution(int N)
         {
             // Implement your solution here
             string binary = Convert.ToString(N, 2);

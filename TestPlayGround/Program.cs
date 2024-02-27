@@ -2,6 +2,3 @@
 using TestPlayGround;
 
 Console.WriteLine("Hello, World!");
-
-
-Console.WriteLine(new BinaryGap().solution(1010));
