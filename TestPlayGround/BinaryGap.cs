@@ -1,4 +1,7 @@
-﻿namespace TestPlayGround
+﻿///This code was created by Alejandro Bastidas Ospina
+/// https://github.com/alejob54
+
+namespace TestPlayGround
 {
     public class BinaryGap
     {
