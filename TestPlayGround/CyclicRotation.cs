@@ -57,18 +57,18 @@ namespace TestPlayGround
             //Array to store the rotated items
             int[] B = new int[A.Length];
 
-            int[] C = new int[A.Length];
-            A.CopyTo(C, 0);
+            //int[] C = new int[A.Length];
+            A.CopyTo(B, 0);
 
             for (int i = 0; i < K; i++)
             {
-                B[0] = C[C.Length - 1];
-                for (int j = 1; j <= C.Length - 1; j++)
+                B[0] = A[A.Length - 1];
+                for (int j = 1; j <= A.Length - 1; j++)
                 {
-                    B[j] = C[j-1];
+                    B[j] = A[j-1];
                 }
 
-                B.CopyTo(C, 0);
+                B.CopyTo(A, 0);
             }
 
             return B;
