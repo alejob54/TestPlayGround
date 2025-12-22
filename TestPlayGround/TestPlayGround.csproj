@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="03 Memory/" />
     <Folder Include="14. BinarySearch\" />
   </ItemGroup>
 

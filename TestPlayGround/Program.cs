@@ -65,5 +65,9 @@ using TestPlayGround._98._Study;
 //hash.DoWork();
 
 
-Solution solution = new Solution();
-solution.TwoSum(new int[] { 3, 2, 4 }, 6);
+//Two Sum
+//Solution solution = new Solution();
+//solution.TwoSum(new int[] { 3, 2, 4 }, 6);
+
+TestClass testClass= new ();
+testClass.Main();
